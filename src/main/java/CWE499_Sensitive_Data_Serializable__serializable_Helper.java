@@ -24,6 +24,13 @@ public class CWE499_Sensitive_Data_Serializable__serializable_Helper extends Abs
     public static void main(String[] args) 
             throws ClassNotFoundException, InstantiationException, IllegalAccessException 
     {
+    	try{
         mainFromParent(args);
+    }
+    catch(ClassNotFoundException a, InstantiationException e, IllegalAccessException i)
+    {
+     logger.error("ERROR") ; 
+    }
+    
     }
 }
