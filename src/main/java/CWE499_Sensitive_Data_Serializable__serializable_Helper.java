@@ -33,4 +33,3 @@ public class CWE499_Sensitive_Data_Serializable__serializable_Helper extends Abs
     }
     
     }
-}
