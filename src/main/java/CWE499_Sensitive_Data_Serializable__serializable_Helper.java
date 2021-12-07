@@ -24,7 +24,7 @@ public class serializable_Helper {
 	public static void main(String[] args) {
 		try {
 			System.out.print("");
-		} catch (Exception i) {
+		} catch (ArithmaticException i) {
 			System.out.print("" + i);
 		}
 
